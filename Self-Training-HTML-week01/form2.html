@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+        <body>
+            <form method="POST" action="daftar"></form>
+        <section id="Sign">
+            <h1>Buat Account Baru!</h1>
+            <h3>Sign Up Form</h3>
+        </section>
+        <section id="firstName">
+            <label for="first">First Name:</label><br>
+            <input type="text" id="first" name="first"><br>
+        </section>
+        <section id="lastName">
+            <label for="last">Last Name:</label><br>
+            <input type="text" id="last" name="last"><br>
+        </section>
+        <section id="gender">
+            <span>Gender:</span><br>
+            <input type="radio" name="gender" id="laki" value="laki">
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" name="gender" id="perempuan" value="perempuan">
+            <label for="perempuan">Perempuan</label>
+            <input type="radio" name="gender" id="other" value="other">
+            <label for="other">Others</label>
+            <br>
+        </section>
+        <section id="nation">
+            <label>Nationality</label><br>
+            <select name="nation" id="nation">
+                <option value="indonesia">Indonesia</option>
+                <option value="malaysia">Malaysia</option>
+                <option value="singapore">Singapore</option>
+            </select>
+                
+            <br>
+        </section>
+        <section id="language">
+            <label>Language Spoken:</label><br>
+            <input type="checkbox" value="bahasa-indonesia" id="indonesia" name="language">
+            <label for="indonesia">Bahasa Indonesia</label>
+            <input type="checkbox" value="english" id="english" name="language">
+            <label for="english">English</label>
+            <input type="checkbox" id="others" name="language" value="other">
+            <label for="others">Others</label>        
+            <br>
+        </section>
+        <section id="bio">
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio" rows="3" cols="40">
+
+            </textarea>
+            <br>
+        </section>
+            <button><a href="./form3.html">Sign Up</a></button>
+        </form>
+        </body>
+</html>

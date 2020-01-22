@@ -1,0 +1,53 @@
+header {
+position: fixed;
+top: 0px;
+display: inline-flex;
+width: 100%;
+background-color: aquamarine;
+font-family: Arial, Helvetica, sans-serif;
+justify-content: space-between;
+}
+
+nav {
+    float: right;
+    right: 0px;
+}
+li {
+    list-style-type: none;
+    margin-right: 25px;
+    text-align: right;
+    display: inline-flex;
+}
+
+body {
+    margin: 0px;
+    background-image: url("img/sample-pattern.png");
+}
+
+#article-list {
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+section h1 {
+    margin-top: 90px;
+    text-align: center;
+}
+article {
+    border-bottom: 1px solid wheat;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    color: white;
+    text-align: auto;
+    bottom: 0px;
+}
+
+h5 {
+    text-align: center;
+}
