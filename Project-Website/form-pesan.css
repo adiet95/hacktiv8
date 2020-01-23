@@ -1,0 +1,142 @@
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#pemesanan {
+    background-color: gray;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 25px;
+    text-align: right;
+    display: inline-flex;
+}
+
+#t2 {
+    height: 70px;
+    width: max-content;
+}
+
+tr {
+    height: 60px;
+    width: 200px;
+    margin: auto;
+}
+#konten {
+    display: inline-flex;
+    margin-right: 70px;
+    margin-left: 70px;    
+    background-color: beige;
+}
+
+#gambar {
+    display: grid;
+    grid-template-rows: 400px 100px;
+    grid-row-gap: 10px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+.motor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+}
+.motor :hover {
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+.gm {
+    width: 100px;
+
+}
+
+#jumbo{
+    width: 90%;
+    
+}
+
+#detail-produk {
+    padding: 50px;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    background-color: silver;   
+}
+
+footer {
+    background-color: #4ccf90;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+header {
+    display: inline-flex;
+    background-color: #4CCF90;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.logo {
+    margin-left: 40px;
+    
+}
+
+#logo-img {
+    margin-top: 15px;
+    height: 40px;
+}
+
+#logo-type {
+    font-family: "Reem kufi";
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+    transform: translateY(-20%);
+}
+
+.search-container{
+background-color: white;
+margin: auto;
+border-radius: 4px;
+width: 60%;
+padding: 5px 10px 5px 20px;
+}
+
+#search-ic{
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+#txt {
+    text-decoration: none;
+    width: 93%;
+    border: none;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+
+.login {
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 4px;
+}
+
+.login a {
+    font-size: 16px;
+    color: #4CCF90;
+}

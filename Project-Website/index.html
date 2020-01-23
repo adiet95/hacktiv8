@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pemesanan Motor</title>
+        <link href="form-pesan.css" type="text/css" rel="stylesheet">
+    </head>
+<nav>
+
+</nav>
+<header>
+    <img id="logo" src="img/logobaru.png" width="200px" />
+    <a href="./login.html" class="tombol tombol-login">Log in</a>
+        <div class="search-container">
+        <form action="#">
+        <input type="text" placeholder="Cari Motor.." name="search">
+        <button type="submit"><img src="img/search.png"></button>
+        </form>
+    </div>
+    
+</header>
+<body>
+    <div id="history">
+        <ul>
+            <li><a href="./#">Motor</a></li>
+            <li><a href="./#">Yamaha</a></li>
+            <li><a href="./#">Matic</a></li>
+            <li>X - Max</a></li>
+        </ul>
+    </div>
+<div id="konten">
+    
+<!--Kode ini memuat gambar produk-->
+<div id="gambar">
+    <div>
+        <img src="img/xmax.jpg" id="jumbo">
+    </div>
+    <div class="motor">
+        <img src="img/biru.jpg" class="gm">
+        <img src="img/hitam.jpg" class="gm">
+        <img src="img/merah.jpg" class="gm">
+        <img src="img/silver.jpg" class="gm">
+    </div>
+</div>
+
+  
+<!--Kode ini memuat informasi motor-->
+<div id="detail-produk">
+<form action="pemesanan.html" method="POST">
+<h1>Detail Produk</h1>
+<div id="nama">     
+        <h3>Data Motor</h3>
+        <br>
+        <br>
+        <span>Tipe Motor</span>
+</div>
+<!--Kode Radiobox Warna-->
+    <section>
+<table id="t2">
+        <tr>
+        <td>
+            <span>Warna</span>
+        </td>
+        <td>
+        <input type="radio" name="warna" id="hitam" value="hitam">
+            <label for="hitam">Hitam</label>
+        <input type="radio" name="warna" id="merah" value="merah">
+            <label for="merah">Merah</label>
+        <input type="radio" name="warna" id="silver" value="silver">
+            <label for="silver">Silver</label>
+        <input type="radio" name="warna" id="putih" value="putih">
+            <label for="putih">Putih</label>
+        </td>   
+        </tr>
+    </section>
+<!--Kode Input Jumlah Barang-->
+    <section>
+    <tr>
+        <td>
+        <label for="jumlah">Jumlah</label>
+        </td>
+        <td>
+        <input type="number" name="jumlah" id="jumlah" min="1" max="20" required>
+        </td>
+    </tr>
+    </section>
+<!--Kode Dropdown Daerah-->
+    <section>
+        <tr>
+        <td>    
+        <label>Dealer</label>
+        </td>
+        <td>
+            <select name="daerah" id="daerah">
+                <option value="jakarta-utara">Jakarta Utara</option>
+                <option value="jakarta-timur">Jakarta Timur</option>
+                <option value="jakarta-selatan">Jakarta Selatan</option>
+                <option value="jakarta-barat">Jakarta Barat</option>
+                <option value="jakarta-pusat">Jakarta Pusat</option>
+            </select>
+        </td>
+        </tr>
+    </section>
+<!--Kode Text Input Nama Pembeli-->
+    <section>
+    <tr>
+        <td>
+        <label for="pembeli">Nama Pembeli</label>
+        </td>
+        <td>
+        <input type="text" name="pembeli" id="pembeli" required>
+        </td>
+    </tr>
+    </section>
+<!--Kode Text Input KTP-->
+    <section>
+    <tr>
+        <td>
+        <label for="nik">Nomor KTP</label>
+        </td>
+        <td>
+        <input type="text" name="nik" id="nik" pattern="[0-9]{14,16}" required>
+        </td>
+    </tr>
+    </section>
+<!--Kode Text Area Alamat Pengiriman-->
+    <section>
+    <tr>
+        <td>
+        <label for="alamat">Alamat Pengiriman</label>
+        </td>
+        <br>
+        <td>
+        <textarea id="alamat" name="alamat" rows="3" cols="40" required>
+
+        </textarea>
+        </td>
+    </tr>
+    </section>
+<!--Kode Radiobox Pembayaran-->
+    <section>
+    <tr>
+        <td>
+        <span>Pembayaran</span>
+        </td>
+        <br>
+        <td>
+        <label for="cash">Cash</label>
+        <input type="radio" name="bayar" id="cash" value="cash">
+        <label for="cicilan">Cicilan</label>
+        <input type="radio" name="bayar" id="cicilan" value="cicilan">
+        </td>
+    </tr>
+    </section>
+    <section class="pesan">
+    <tr>
+        <td colspan="2">
+        <input type="submit" value="Pesan Sekarang">
+        </td>
+    </tr>
+    </section>
+</table>
+</form>
+</div>
+</div>
+    </body>
+    <footer>
+        <h5>mottor &copy; 2020</h5>
+    </footer>
+
+</html>

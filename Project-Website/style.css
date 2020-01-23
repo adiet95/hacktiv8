@@ -1,0 +1,133 @@
+body {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: #4ccf90;
+    position: fixed;
+    top : 0;
+    width: 100%;
+    height: 82px;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.tombol
+{
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 8px;
+    display: inline-block;
+    width: 80px;
+    margin: 20px 32px;
+    text-align: center;
+    color: black;
+    float: right;
+}
+
+.tombol-login
+{
+    background-color: white;
+}
+
+header .search-container {
+    float: right;
+    margin-left: 16px;
+  }
+
+header input[type=text] {
+    padding: 6px;
+    margin-top: 24px;
+    font-size: 17px;
+    border: none;
+    width: 480px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+header .search-container button {
+    float: center;
+    padding: 6px 10px;
+    margin-top: 24px;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .navigation {
+    width: 80%;
+    margin: 35px auto;
+    padding: 20px;
+  }
+
+#pemesanan {
+    background-color: gray;
+    margin: auto;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+li {
+    list-style-type: none;
+    margin-right: 25px;
+    text-align: right;
+    display: inline-flex;
+}
+
+#t2 {
+    height: 70px;
+    width: max-content;
+}
+
+tr {
+    height: 60px;
+    width: 200px;
+    margin: auto;
+}
+#konten {
+    display: inline-flex;
+    margin-right: 70px;
+    margin-left: 70px;    
+    background-color: gray;
+}
+
+#gambar {
+    display: grid;
+    grid-template-rows: 400px 100px;
+    grid-row-gap: 10px;
+    margin: auto;
+    margin-left: 50px;
+}
+
+#motor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px;
+}
+
+.gm {
+    width: 100px;
+
+}
+
+#jumbo{
+    width: 90%;
+    
+}
+
+#detail-produk {
+    padding: 50px;
+    margin: auto;   
+}
+
+footer {
+    background-color: #4ccf90;
+    text-align: center;
+    padding: 15px 15px;
+}
